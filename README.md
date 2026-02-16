@@ -1,2 +1,4 @@
-# Sales-Performance-Analytics
-End-to-end sales data analysis project using Python, PostgreSQL, and Power BI.
+data/                  # raw & cleaned datasets
+sql/                   # SQL scripts for cleaning and querying
+dashboard/             # Power BI screenshots or PBIX files
+report/                # PDF or Markdown report of insights
