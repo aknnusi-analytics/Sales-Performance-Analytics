@@ -2,7 +2,7 @@
 ## 📌 Project Overview
 Designed an end-to-end Sales & Operations pipeline for a national automotive retailer. The model analyzes the complexity of a Lagos-centralized distribution system delivering high-value assets to individual customers across 16 Nigerian states. The project evaluates how transit distance impacts customer delivery timelines and regional revenue growth.
 
-# Expanded State Lists (The 16 States)
+# Expanded State List (The 16 States)
 - South-West: Lagos, Ogun, Oyo, Osun, Ondo, Ekiti
 - South-South: Rivers, Bayelsa, Edo
 - South-East: Enugu, Imo, Anambra
