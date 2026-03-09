@@ -1,24 +1,36 @@
-# National Sales Operations & Logistic optimization (2021-2026).
-## 📌 Project Overview
-Designed an end-to-end Sales & Operations pipeline for a national automotive retailer. The model analyzes the complexity of a Lagos-centralized distribution system delivering high-value assets to individual customers across 16 Nigerian states. The project evaluates how transit distance impacts customer delivery timelines and regional revenue growth.
+# Nigeria Automotive Sales: Strategic Performance & Inventory Forecasting
+##  Project Overview
+This project presents a comprehensive business analysis of 8,100 sales records from a centralized automotive dealership in Lagos. As the Lead Business Analyst, I executed an end-to-end data pipeline-transforming raw, inconsistent operational data into a strategic tool for regional market expansion and inventory optimization across 16 Nigerian states. The project evaluates how transit distance impacts customer delivery timelines and regional revenue growth.
 
-# Expanded State List (16 States)
-- South-West: Lagos, Ogun, Oyo, Osun, Ondo, Ekiti
-- South-South: Rivers, Bayelsa, Edo
-- South-East: Enugu, Imo, Anambra
-- North/Central: FCT (Abuja), Kano, Katsina, Benue
+## The Business Problem
+The dealership faced three critical "Blind Spots" that hindered growth:
+- Geographic Analysis Gap: The initial dataset lacked a structured regional framework, making it impossible to measure territorial market share or representative efficiency across Nigeria.
+- Inconsistent Nomenclature: Generic model tags (e.g., GLE) and brand-model mismatches threatened the accuracy of luxury-segment financial audits
+- Logistics Visibility: Management required a way to track delivery performance from the Lagos hub to 16 different states but lacked the categorical grouping to do so.
 
-## 🔄Refined ETL Steps
-- Data Synchronization: Used Python to map Car Models to correct Parent Brands, ensuring 100% categorical accuracy.
-- Logistics Simulation: Developed a distance-based engine to calculate realistic delivery lead times from the Lagos hub to 16 states.
-- Financial Normalization: Optimized discount variables (capping at 12%) and recalculated total revenue to reflect realistic market margins.
+## Data Engineering & Governance
+# Before beginning the technical ETL process in Python, I conducted a Strategic Data Governance phase to ensure the raw dataset aligned with the business’s regional reporting requirements
+Territorial Framework Design: I structured a geographic mapping to group 16 Nigerian states into 4 strategic regional territories (North, South-West, South-South/East, and Middle Belt). This converted fragmented state-level data into a high-level framework for analyzing regional market penetration and logistics efficiency
+Trim Augmentation & Enrichment: To enable precise high-margin segment analysis, I performed a targeted nomenclature audit. This involved upgrading generic model tags to high-fidelity trims (specifically GLE to GLE 450, GLC to GLC 350 and GLK 350), ensuring that the dealership's true revenue drivers were accurately identified for forecasting.
 
-## 📈 Business-Focused Insights
-- Logistics Bottlenecks: While Lagos remains the revenue powerhouse, individual deliveries to Katsina and Kano face an average 60+ hour lead time. This identifies a critical need for regional 'Transit Points' to improve the customer experience in the North.  
-- Market Penetration: High individual demand in Anambra and Edo suggests strong emerging markets outside of the traditional Lagos/PH/Abuja hubs.
-- Operational Risk: The centralized 'Lagos Warehouse' model is efficient for the South-West but creates a 'Delivery Delay' risk for 25% of the national customer base.
+## Key Performance Indicators (KPIs)
+Territorial Revenue Share: Identifying the financial contribution of each regional hub.  
+Sales Rep Productivity: Comparing conversion rates for the specialized regional reps (Olawale, Aminu, Chukwudi, and Adeola).
+Segment Velocity: Tracking the sales speed of high-trim models (GLE 450 / GLK 350) vs. economy models.
 
-## 📷 Dashboard Preview
-A Map: Showing the 16 states
+## Strategic Forecasting (Predictive Analysis)
+Demand Projection: By standardizing the GLE 450 and GLK 350 trims, I identified a consistent upward trajectory in the high-margin SUV segment.
+Seasonality Mapping: Projected a 20% surge in Q4 sales volume by analyzing historical Nigerian purchase patterns during festive periods.
+Inventory Strategy: Recommended a targeted "Stock-Up" phase for fuel-efficient Toyota models in the Northern territory to capture rising demand predicted for the next quarter.
+
+## Technical Stack
+ETL & Cleaning: Python (Pandas/NumPy) & Strategic Data Augmentation.
+Database: PostgreSQL (Data Warehousing & Complex SQL Queries).
+Visualization: Power BI (Interactive Dashboards & Time-Series Forecasting).
+
+## Actionable Recommendations
+Inventory Pivot: Prioritize procurement of high-velocity models like the GLE 450 and GLK 350, identified as top revenue contributors.
+Territory Focus: Reallocate marketing spend to the Northern Territory to capitalize on higher average transaction values.
+Logistics Audit: Investigate delivery delays in the South-South region to improve customer satisfaction and reduce lead times.
 A Trend Line: Showing sales from 2021 to Feb 2026.
 A KPI Card: Showing Average Delivery Time" or Total Revenue.
