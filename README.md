@@ -25,7 +25,8 @@ Inventory Strategy: Recommended a targeted "Stock-Up" phase for fuel-efficient T
 
 ## Technical Stack
 ETL & Cleaning: Python (Pandas/NumPy) & Strategic Data Augmentation.
-Database: PostgreSQL (Data Warehousing & Complex SQL Queries).
+Database: PostgreSQL (Data Warehousing & Complex SQL Queries). I migrated the cleaned dataset into a PostgreSQL environment to perform 
+deep-dive business analysis. Key queries included in Analysis_Queries.sql: Territory Analysis, Operational Audit, Inventory and Time/Forecasting.
 Visualization: Power BI (Interactive Dashboards & Time-Series Forecasting).
 
 ## Actionable Recommendations
