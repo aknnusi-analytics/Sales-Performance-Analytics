@@ -3,7 +3,7 @@
 -- ANALYST: Akinnusi Semilore Anthony
 -- TOOLS: PostgreSQL, Python, Power BI
 -- ==========================================================
-CREATE TABLE car_sales_data (
+CREATE TABLE cleaned_nigeria_car_sales_data (
     sale_date DATE,
     state VARCHAR(50),
 	city VARCHAR(50),
@@ -22,7 +22,7 @@ CREATE TABLE car_sales_data (
 	car_age INT,
 	region VARCHAR(50),
     sales_rep VARCHAR(50),
-    brand VARCHAR(50)
+    brand VARCHAR(100)
 );
 
 --Revenue Performance
