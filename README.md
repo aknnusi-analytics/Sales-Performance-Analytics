@@ -1,37 +1,43 @@
-# Nigeria Automotive Sales: Strategic Performance & Inventory Forecasting
+# EnyRash Auto: Nigeria Car Sales Performance Dashboard (2021-2026)
 ##  Project Overview
-This project presents a comprehensive business analysis of 8,100 sales records from a centralized automotive dealership in Lagos. As the Lead Business Analyst, I executed an end-to-end data pipeline-transforming raw, inconsistent operational data into a strategic tool for regional market expansion and inventory optimization across 16 Nigerian states. The project evaluates how transit distance impacts customer delivery timelines and regional revenue growth.
+This project involves the end-to-end analysis of an automotive sales dataset for EnyRash Auto Enterprises. I transformed raw transactional data into a dynamic, executive-level Power BI dashboard to track ₦109.54 Billion in historical revenue and provide predictive insights for future fiscal periods.
 
-## The Business Problem
-The dealership faced three critical "Blind Spots" that hindered growth:
-- Geographic Analysis Gap: The initial dataset lacked a structured regional framework, making it impossible to measure territorial market share or representative efficiency across Nigeria.
-- Inconsistent Nomenclature: Generic model tags (e.g., GLE) and brand-model mismatches threatened the accuracy of luxury-segment financial audits
-- Logistics Visibility: Management required a way to track delivery performance from the Lagos hub to 16 different states but lacked the categorical grouping to do so.
+## Key Business Questions Addressed
+ * Performance vs. Target: Are we meeting our 10% year-over-year growth objectives?
+ * Market Dominance: Which Nigerian states contribute the most to our bottom line?
+ * What are the top-selling car brands based on quantity sold?
+ * Which regions have the highest and lowest sales performance?
+ * Product Analysis: Which vehicle brands (Toyota, Honda, Benz, etc.) are the primary revenue drivers?
+ * Operational Efficiency: What is the average delivery time, and how does it impact customer satisfaction?
+ * Future Outlook: What is the predicted revenue for Q2 2026 based on 5 years of historical trends?
 
-## Data Engineering & Governance
-# Before beginning the technical ETL process in Python, I conducted a Strategic Data Governance phase to ensure the raw dataset aligned with the business’s regional reporting requirements
-Territorial Framework Design: I structured a geographic mapping to group 16 Nigerian states into 4 strategic regional territories (North, South-West, South-South/East, and Middle Belt). This converted fragmented state-level data into a high-level framework for analyzing regional market penetration and logistics efficiency
-Trim Augmentation & Enrichment: To enable precise high-margin segment analysis, I performed a targeted nomenclature audit. This involved upgrading generic model tags to high-fidelity trims (specifically GLE to GLE 450, GLC to GLC 350 and GLK 350), ensuring that the dealership's true revenue drivers were accurately identified for forecasting.
+
+## Technical Skills Demonstrated
+* Data Cleaning (ETL): Processed 5 years of sales records, ensuring currency formatting in Naira (₦) and handling date-time consistency.
+* Advanced DAX Modeling: * Created Dynamic Targets using DAX measures (SUM * 1.10) that automatically scale when filtering by year.
+* Developed custom KPI measures for Total Revenue and Average Delivery Hours.
+* Predictive Analytics: Integrated a Time-Series Forecast using Power BI’s built-in exponential smoothing models with a 95% Confidence Interval.
+* Dashboard Design: Applied UI/UX principles (Z-pattern layout) to ensure high readability for executive decision-making.
+
+## Visual Breakdown
+* Success Gauge: A real-time tracker showing actual revenue against a 110% growth benchmark.
+* Regional Treemap: A breakdown of market share by state, identifying Lagos as the top-performing region (₦37.09bn).
+* Brand Bar Chart: Comparison of sales volume across major vehicle manufacturers.
+* Revenue Trend & Forecast: A 5-year historical line chart extended by a 3-month Q2 2026 forecast.
 
 ## Key Performance Indicators (KPIs)
-Territorial Revenue Share: Identifying the financial contribution of each regional hub.  
-Sales Rep Productivity: Comparing conversion rates for the specialized regional reps (Olawale, Aminu, Chukwudi, and Adeola).
-Segment Velocity: Tracking the sales speed of high-trim models (GLE 450 / GLK 350) vs. economy models.
+* Growth Potential: The current revenue of ₦109.54bn is currently at 91% of the ₦120bn fiscal target.
+* Market Concentration: Top 3 states (Lagos, Oyo, Enugu) account for a significant portion of total revenue, suggesting a need for targeted marketing in northern regions.
+* Efficiency: Maintaining a 34.55-hour average delivery time is a key competitive advantage in the Nigerian logistics space.
 
-## Strategic Forecasting (Predictive Analysis)
-Demand Projection: By standardizing the GLE 450 and GLK 350 trims, I identified a consistent upward trajectory in the high-margin SUV segment.
-Seasonality Mapping: Projected a 20% surge in Q4 sales volume by analyzing historical Nigerian purchase patterns during festive periods.
-Inventory Strategy: Recommended a targeted "Stock-Up" phase for fuel-efficient Toyota models in the Northern territory to capture rising demand predicted for the next quarter.
-
-## Technical Stack
-ETL & Cleaning: Python (Pandas/NumPy) & Strategic Data Augmentation.
-Database: PostgreSQL (Data Warehousing & Complex SQL Queries). I migrated the cleaned dataset into a PostgreSQL environment to perform 
-deep-dive business analysis. Key queries included in Analysis_Queries.sql: Territory Analysis, Operational Audit, Inventory and Time/Forecasting.
-Visualization: Power BI (Interactive Dashboards & Time-Series Forecasting).
+## Tools Used
+* Python (Pandas, Numpy) ETL: Data extraction and cleaning
+* SQL (PostgreSQL): Data extraction and aggregation
+* Power BI: Interactive dashboard and time-series forecasting 
 
 ## Actionable Recommendations
-Inventory Pivot: Prioritize procurement of high-velocity models like the GLE 450 and GLK 350, identified as top revenue contributors.
-Territory Focus: Reallocate marketing spend to the Northern Territory to capitalize on higher average transaction values.
-Logistics Audit: Investigate delivery delays in the South-South region to improve customer satisfaction and reduce lead times.
-A Trend Line: Showing sales from 2021 to Feb 2026.
-A KPI Card: Showing Average Delivery Time" or Total Revenue.
+* Inventory Pivot: Prioritize procurement of high-velocity brands like Toyota, identified as top revenue contributors.
+* Territory Focus: Reallocate marketing spend to the Northern Territory to capitalize on higher average transaction values.
+* Logistics Audit: Investigate delivery delays in the South-South region to improve customer satisfaction and reduce lead times.
+* A Trend Line: Showing sales from 2021 to Feb 2026.
+* A KPI Card: Showing Average Delivery Time" or Total Revenue.
