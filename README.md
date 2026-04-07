@@ -1,6 +1,6 @@
 # EnyRash Auto: Nigeria Car Sales Performance Dashboard (2021-2026)
 ##  Project Overview
-This project involves the end-to-end analysis of an automotive sales dataset for EnyRash Auto Enterprises. I transformed raw transactional data into a dynamic, executive-level Power BI dashboard to track ₦109.54 Billion in historical revenue and provide predictive insights for future fiscal periods.
+This project involves the end-to-end analysis of an automotive sales dataset for EnyRash Auto Enterprises. I transformed raw transactional data into a dynamic, executive-level Power BI dashboard to track ₦104.26 Billion in historical revenue and provide predictive insights for future fiscal periods.
 
 ## Key Business Questions Addressed
  * Performance vs. Target: Are we meeting our 10% year-over-year growth objectives?
@@ -21,14 +21,14 @@ This project involves the end-to-end analysis of an automotive sales dataset for
 
 ## Visual Breakdown
 * Success Gauge: A real-time tracker showing actual revenue against a 110% growth benchmark.
-* Regional Treemap: A breakdown of market share by state, identifying Lagos as the top-performing region (₦37.09bn).
+* Regional Treemap: A breakdown of market share by state, identifying Lagos as the top-performing region (₦35.14bn).
 * Brand Bar Chart: Comparison of sales volume across major vehicle manufacturers.
 * Revenue Trend & Forecast: A 5-year historical line chart extended by a 3-month Q2 2026 forecast.
 
 ## Key Performance Indicators (KPIs)
 * Growth Potential: The current revenue of ₦109.54bn is currently at 91% of the ₦120bn fiscal target.
 * Market Concentration: Top 3 states (Lagos, Oyo, Enugu) account for a significant portion of total revenue, suggesting a need for targeted marketing in northern regions.
-* Efficiency: Maintaining a 34.55-hour average delivery time is a key competitive advantage in the Nigerian logistics space.
+* Efficiency: Maintaining a 8.00-hour average delivery time is a key competitive advantage in the Nigerian logistics space.
 
 ## Tools Used
 * Python (Pandas, Numpy) ETL: Data extraction and cleaning
