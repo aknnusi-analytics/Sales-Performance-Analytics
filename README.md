@@ -26,7 +26,7 @@ This project involves the end-to-end analysis of an automotive sales dataset for
 * Revenue Trend & Forecast: A 5-year historical line chart extended by a 3-month Q2 2026 forecast.
 
 ## Key Performance Indicators (KPIs)
-* Growth Potential: The current revenue of ₦109.54bn is currently at 91% of the ₦120bn fiscal target.
+* Growth Potential: The current revenue of ₦104.26bn is currently at 91% of the ₦114.68bn fiscal target.
 * Market Concentration: Top 3 states (Lagos, Oyo, Enugu) account for a significant portion of total revenue, suggesting a need for targeted marketing in northern regions.
 * Efficiency: Maintaining a 8.00-hour average delivery time is a key competitive advantage in the Nigerian logistics space.
 
